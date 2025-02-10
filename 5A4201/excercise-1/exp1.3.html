@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Images with Links</title>
+    <style>
+       
+        .profile-img {
+            width: 150px;  
+            height: 150px;  
+            border-radius: 50%; 
+            margin: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        
+        .profile-img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h2>Click on the images to visit profiles</h2>
+ 
+    <a href="https://www.example.com/myprofile" target="_blank">
+        <img src="my_image.jpg" alt="My Profile" class="profile-img">
+    </a>
+ 
+    <a href="https://www.example.com/friendprofile" target="_blank">
+        <img src="friend_image.jpg" alt="Friend's Profile" class="profile-img">
+    </a>
+
+</body>
+</html>
