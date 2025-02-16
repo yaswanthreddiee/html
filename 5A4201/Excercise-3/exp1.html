@@ -3,57 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Layout Example</title>
+    <title>HTML5 Elements</title>
 </head>
 <body>
 
-    <header>
-        <h1>My Web Page</h1>
-        <p>Welcome to my personal website</p>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <header><h1>My <span style="color: red;">Website</span></h1></header>
+    <nav><a href="#">Home</a> | <a href="#">About</a></nav>
 
     <main>
-        <section id="home">
+        <section>
             <article>
-                <h2>Article Title</h2>
-                <p>This is an article about HTML tags. Learn how to use various HTML5 elements such as <span>article</span>, <span>aside</span>, and <span>figure</span>.</p>
-
-                <figure>
-                    <img src="https://via.placeholder.com/400x200" alt="Placeholder image">
-                    <figcaption>This is a placeholder image used in the article.</figcaption>
-                </figure>
-
-                <p>HTML5 provides many semantic tags to help structure web content. Using these elements improves both SEO and accessibility.</p>
+                <h2>Article <span style="font-weight: bold;">Title</span></h2>
+                <p>Some <span style="background-color: yellow;">highlighted</span> content here.</p>
             </article>
-
-            <div>
-                <h3>Additional Information</h3>
-                <p>Here you can add more details about the topic. This section could be part of a larger article or a separate section.</p>
-            </div>
         </section>
 
-        <aside id="related-links">
-            <h3>Related Links</h3>
-            <ul>
-                <li><a href="https://www.w3schools.com/html/">HTML Basics</a></li>
-                <li><a href="https://www.w3schools.com/css/">CSS Styling</a></li>
-                <li><a href="https://www.w3schools.com/js/">JavaScript Introduction</a></li>
-            </ul>
-        </aside>
+        <aside><p>Related <span style="font-style: italic;">Links</span></p></aside>
+
+        <figure>
+            <img src="image.jpg" alt="Sample">
+            <figcaption>Image <span style="text-decoration: underline;">description</span></figcaption>
+        </figure>
     </main>
 
-    <footer id="contact">
-        <p>&copy; 2025 My Web Page. All rights reserved.</p>
-        <p>Contact us at <a href="mailto:contact@mywebpage.com">contact@mywebpage.com</a></p>
-    </footer>
+    <footer>&copy; 2025</footer>
 
 </body>
 </html>
